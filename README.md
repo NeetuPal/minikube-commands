@@ -78,8 +78,11 @@ kubectl logs vault-0 -n vault
 ```
 ```
 kubectl describe pod bankapp-697b5f7bbd-2p545 -n webapps
-
 ```
+```
+kubectl logs pod/bankapp-697b5f7bbd-2p545 -n webapps -c vault-agent-init
+```
+
 ```
 kubectl exec -it vault-0 -n vault -- vault status
 
