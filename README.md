@@ -59,3 +59,7 @@ Restart the system.
 kubectl delete namespace webapps --force --grace-period=0
 
 ```
+```
+helm search repo vault
+
+```
