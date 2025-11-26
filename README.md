@@ -72,3 +72,11 @@ helm install vault hashicorp/vault -n vault --create-namespace -f values.yaml
 helm upgrade vault hashicorp/vault -n vault -f values.yaml
 
 ```
+```
+kubectl logs vault-0 -n vault
+
+```
+```
+kubectl describe pod bankapp-697b5f7bbd-2p545 -n webapps
+
+```
