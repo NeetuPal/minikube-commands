@@ -4,6 +4,10 @@ minikube version
 
 ```
 ```
+minikube status
+
+```
+```
 minikube start --driver=docker
 ```
 ```
