@@ -1,5 +1,9 @@
 # minikube-commands
 ```
+minikube version
+
+```
+```
 minikube start --driver=docker
 ```
 ```
